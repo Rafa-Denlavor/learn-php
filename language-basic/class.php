@@ -7,6 +7,7 @@ class Aluno
     public $serie;
     # Acessada somente pela classe herdada
     protected $cpf;
+    public $registrationDate;
 
     public function __construct($nome, $idade, $serie, $cpf)
     {
@@ -15,7 +16,6 @@ class Aluno
         $this->serie = $serie;
         $this->registrationDate = date('d/m/Y');
         $this->cpf = $cpf;
-
     }
 
     public function message()
