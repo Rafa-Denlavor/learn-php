@@ -1,0 +1,14 @@
+<?php
+
+/*
+# SUPERGLOBAIS
+
+$GLOBALS
+$_SERVER
+$_REQUEST
+$_POST
+$_GET
+$_FILES
+$_COOKIE
+$_SESSION
+*/
